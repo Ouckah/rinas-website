@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffe4f0;
+}
+
+h1 {
+    color: #df679d
+}
+
+p {
+    color: #df679d
+}
+
+.container {
+    margin-top: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #F8C8DC;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #eb87ce;
+}
+
+#score, #timer {
+    font-size: 18px;
+    margin-top: 20px;
+}

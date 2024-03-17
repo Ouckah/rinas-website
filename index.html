@@ -3,52 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Your Website Title</title>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                margin: 0;
-                padding: 0;
-                background-color: #f0f0f0;
-            }
-            .container {
-                width: 80%;
-                margin: 0 auto;
-                padding: 20px;
-                background-color: #fff;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-                border-radius: 5px;
-                margin-top: 50px;
-                text-align: center; /* Added */
-            }
-            h1 {
-                color: #333;
-            }
-            p {
-                color: #666;
-            }
-            button {
-                padding: 10px 20px;
-                background-color: #007bff;
-                color: #fff;
-                border: none;
-                border-radius: 5px;
-                cursor: pointer;
-                transition: background-color 0.3s ease;
-            }
-            button:hover {
-                background-color: #0056b3;
-            }
-        </style>
+        <title>Clicking Game</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
-
+<body>
     <div class="container">
-        <h1>Welcome to Your Website</h1>
-        <p>This is a simple website created with HTML and CSS.</p>
-        <button id="clickMe">Click Me!</button> <!-- Added -->
-        <p id="message"></p> <!-- Added -->
+        <h1>Clicking Game</h1>
+        <p>Click the button as many times as you can within 10 seconds!</p>
+        <button id="clickButton">Click Me!</button>
+        <p id="score">Score: 0</p>
+        <p id="timer">Time Left: 10</p>
     </div>
+    <script src="script.js"></script>
+</body>
+</html>
 
     <script>
         document.getElementById('clickMe').addEventListener('click', function() {
